@@ -1,0 +1,95 @@
+html{
+    height: 100%;
+}
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-color: #F3F3F3;
+}
+/*购物车*/
+.top{
+    width: 100%;
+    background-color:#EFEFEF;
+    padding: 20px; 
+    text-align: center;
+    position: relative;
+    font-size: 18px;
+}
+.top span:nth-child(1){
+    /*定位到左边*/
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+.top span:nth-child(3){
+    /*定位到右边*/
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+/*感叹图*/
+.banner{
+    width: 120px;
+    /*定宽居中*/
+    margin: 50px auto;
+    font-size: 120px;
+}
+/*商品*/
+.shop{
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    padding-bottom:150px;
+}
+a{
+    color: #646464;
+}
+ a:hover{
+    /*取消链接样式*/
+    text-decoration: none;
+     color: #646464;
+}
+.shop span{
+     padding: 0 50px;
+      text-align: center;
+      display: inline-block;
+      line-height: 60px;
+}
+.shop a:nth-child(1) span{
+ background-color: white;
+ color: black;
+}
+.shop a:nth-child(2) span{
+ background-color: #FF5622;
+ color: white;
+}
+/*底部*/
+footer{
+    width: 100%;
+    border-top: 1px solid lightgrey;
+     border-bottom: 1px solid lightgrey;
+     overflow: hidden;
+}
+footer figure{
+    text-align: center;
+    float: left;
+    font-size: 30px;
+    width: 25%;
+    padding: 10px 0;
+    background-color: #F6F6F6;
+}
+footer figure figcaption{
+    font-size: 14px;
+    color: #CECECE;
+}
+/*适配*/
+@media screen and (max-width:360px){
+    .shop span{
+        width: 45%;
+        font-size: 14px;
+        padding: 0;
+        line-height: 50px;
+      
+    }
+}

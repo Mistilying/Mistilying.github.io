@@ -1,0 +1,114 @@
+html{
+    height: 100%;
+}
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-color: #F5F5F5;
+}
+h3,p,ul{
+     margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+}
+/*链接样式*/
+a{
+    color: #646464;
+}
+a:hover{
+      text-decoration: none;
+      color: #646464;
+}
+/*商品分类*/
+.top{
+    width: 100%;
+    background-color:#EFEFEF;
+    padding: 20px; 
+    text-align: center;
+    position: relative;
+    font-size: 18px;
+}
+.top span:nth-child(1){
+    /*定位到左边*/
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+.top span:nth-child(3){
+    /*定位到右边*/
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+/*导航条*/
+.my_nav{
+    width: 100%;
+    background-color: white;
+    /*水平滚动条*/
+    overflow-y: hidden;
+    
+}
+.my_nav ul{
+    width:1100px;
+     height: 50px;
+    padding: 10px 10px 20px ;
+     border-bottom: 1px solid lightgrey;
+}
+.my_nav ul li{
+    width: 120px;
+    float: left;
+    font-size: 14px;
+    line-height: 20px;
+}
+/*主要内容*/
+main{
+    width: 100%;
+    padding-bottom: 120px;
+    text-align: center;
+}
+/*图片*/
+.banner{
+    width: 100%;
+    padding: 10px 0;
+}
+/*商品名称*/
+.shop_nav{
+    width: 100%;
+    background-color: white;
+     text-align: center;
+    /*清除浮动*/
+    overflow: hidden;
+}
+/*商品名称居中*/
+.shop_nav h3{
+ font-size: 18px;
+ margin: 20px 0;
+}
+/*商品图片排列显示*/
+.shop_nav figure{
+    float: left;
+    width: 33.3333%;
+    padding: 10px 0;
+}
+/*底部*/
+footer{
+    width: 100%;
+    border-top: 1px solid lightgrey;
+     border-bottom: 1px solid lightgrey;
+     overflow: hidden;
+}
+footer figure{
+    text-align: center;
+    float: left;
+    font-size: 30px;
+    width: 25%;
+    padding: 10px 0;
+    background-color: #F6F6F6;
+}
+footer figure figcaption{
+    font-size: 14px;
+    color: #CECECE;
+}

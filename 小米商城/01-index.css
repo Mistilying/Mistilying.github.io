@@ -1,0 +1,241 @@
+html,body{
+    height: 100%;
+}
+body,h3{
+    margin: 0;
+    padding: 0;
+}
+/*导航条*/
+.mynav{
+    width: 100%;
+    padding: 10px 0px;
+    background-color: #F87300;
+}
+.mynav button{
+    width: 100%;
+    background-color: white;
+    font-size: 20px;
+    line-height: 44px;
+    border: none;
+    border-radius: 4px;
+      color: #D4DEE0;
+      /*左对齐*/
+    text-align: left;
+}
+.mynav img{
+    height: 45.5px;
+}
+.mynav button span{
+    font-size: 22px;
+    padding: 10px 10px 0px 20px;
+}
+.mynav h3{
+    font-size: 22px;
+    line-height: 45.5px;
+    color: white;
+    font-weight: normal;
+}
+/*轮播图*/
+.banner{
+    width: 100%;
+    margin-top: 65.5px;
+}
+.banner img{
+    width: 100%;
+}
+/*主要内容*/
+main{
+    width: 100%;
+    background-color: #F5F5F5;
+    padding-bottom: 120px;
+}
+/*标题*/
+.nav_title{
+    width: 100%;
+    padding: 20px;
+    background-color: white;
+}
+.nav_title h3{
+    font-size: 24px;
+    color: #F35B2D;
+}
+.nav_title h3 span{
+    color: black;
+    font-size: 20px;
+    line-height: 24px;
+}
+/*商品*/
+.shop-1{
+    width: 100%;
+    margin-top: 20px;
+    background-color: white;
+}
+.pic{
+    width: 100%;
+}
+.shop-1 .shop-1_left{
+    float: left;
+    width: 50%;
+    padding-right: 5px;
+}
+.shop-1 .shop-1_left img{
+    width: 100%;
+}
+.shop-1 .shop-1_right{
+    width: 50%;
+    float: right;
+}
+.shop-1 .shop-1_right img{
+    width: 100%;
+    padding-bottom: 5px;
+}
+/*新品上线*/
+.shop-2{
+    width: 100%;
+    margin-top: 20px;
+    background-color: white;
+    /*清除浮动*/
+    overflow: hidden;
+}
+.text{
+    font-size: 24px;
+    padding: 20px;
+}
+.shop-2-2 img{
+    /*下边距距离*/
+    padding-bottom: 5px;
+}
+.shop-2 .left{
+    width: 50%;
+    float: left;
+    /*右边距*/
+    padding-right: 2.5px;
+}
+.shop-2 .right{
+     padding-left: 2.5px;
+    width: 50%;
+    float: right;
+}
+main p:nth-of-type(1){
+    padding-left: 20px;
+    margin-top: 20px;
+    font-size: 20px;
+    line-height: 30px;
+}
+main  p:nth-of-type(2){
+    padding-left: 20px;
+    font-size: 18px;
+    line-height: 30px;
+    color: lightgrey;
+}
+main p:nth-of-type(3){
+    padding-left: 20px;
+    font-size: 20px;
+    line-height: 30px;
+    color: #F87300;
+    margin-bottom: 20px;
+}
+.text-1{
+    clear: both;
+    font-size: 24px;
+    padding: 20px;
+    text-align: center;
+    color: gray;
+    border-top: 1px solid lightgray;
+}
+.banner-1{
+    width: 100%;
+    margin-top: 20px;
+}
+/*米家智能*/
+.shop-3{
+    width: 100%;
+    margin-top: 20px;
+    background-color: white;
+    /*清除浮动*/
+    overflow: hidden;
+}
+.shop-3 .shop-3-1{
+    width: 100%;
+    overflow: hidden;
+}
+.shop-3 .shop-3-1 .left{
+    float: left;
+    width: 50%;
+}
+.shop-3 .shop-3-1 .right{
+    float: right;
+    width: 50%;
+}
+.shop-3 p:nth-of-type(1){
+    margin-top: 50px;
+}
+/*职场白领*/
+.shop-4 .left{
+    width: 35%;
+    float: left;
+    /*右边距*/
+    padding-right: 2.5px;
+}
+.shop-4 .right{
+     padding-left: 2.5px;
+    width: 65%;
+    float: right;
+}
+.shop-4 p:nth-of-type(3){
+    position: relative;
+    top: -80px;
+    padding-right: 20px;
+    float: right;
+}
+/*底部*/
+a{
+    color: #646464;
+}
+a:hover{
+      text-decoration: none;
+      color: #646464;
+}
+footer{
+    width: 100%;
+    border-top: 1px solid lightgrey;
+     border-bottom: 1px solid lightgrey;
+     overflow: hidden;
+}
+footer figure{
+    text-align: center;
+    float: left;
+    font-size: 30px;
+    width: 25%;
+    padding: 10px 0;
+    background-color: #F6F6F6;
+}
+footer figure figcaption{
+    font-size: 14px;
+    color: #CECECE;
+}
+/*适配*/
+@media screen and (max-width:450px){
+    .mynav h3{
+    font-size: 11px;  
+}
+.mynav button{
+    font-size: 16px;  
+}
+.mynav img{
+    width: 53px;
+}
+main  p:nth-of-type(1){
+    font-size: 14px;
+}
+main  p:nth-of-type(2){
+    font-size: 14px;
+}
+main p:nth-of-type(3){
+    font-size: 14px;
+}
+.shop-3 p:nth-of-type(1){
+    margin-top: 10px;
+     font-size: 14px;
+}
+}
