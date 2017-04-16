@@ -60,8 +60,7 @@ function sendMsg(msg) {
     /*
     默认异步处理
     */
-    xhr.open('post', 'http://www.tuling123.com/openapi/api?key=bc07d902b56e4facb88b88055139f001&info='+msg)
-      xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+    xhr.open('get', 'http://www.tuling123.com/openapi/api?key=bc07d902b56e4facb88b88055139f001&info='+msg)
     // 发送数据
-    xhr.send('info=333333')
+    xhr.send()
 }
